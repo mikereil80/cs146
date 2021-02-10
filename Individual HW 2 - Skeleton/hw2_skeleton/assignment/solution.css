@@ -1,0 +1,169 @@
+/* Put your solutions to the assignment here */
+
+/*Michael Reilly*/ 
+/*I pledge my honor that I have abided by the Stevens Honor System.*/
+
+@media only screen and (min-width: 999px){
+body{
+	background-color: #eee;
+}
+header{
+	background-color: #49516f;
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+h1{
+	margin: 0px 0px 0px 0px;
+	color: white;
+}
+span{
+	margin: 0px 0px 0px 0px;
+	color: white;
+}
+.logo{
+	padding: 5px 5px 5px 5px;
+	margin: 10px 10px 10px 10px;
+	height: 100px;
+	width: 100px;
+	border: 5px solid white;
+}
+.posts{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.post{
+	max-width: 800px;
+	display: flex;
+	flex-grow: inherit;
+}
+.post-body{
+	height: 200px;
+}
+.post-container{
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+.post-pic{
+	height: 200px;
+	width: 200px;
+	margin-right: 10px;
+}
+}
+@media only screen and (min-width: 400px) and (max-width: 998px){
+body{
+	background-color: #eee;
+}
+header{
+	background-color: #49516f;
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	justify-content: center;
+}
+h1{
+	margin: 0px 0px 0px 0px;
+	color: white;
+}
+span{
+	margin: 0px 0px 0px 0px;
+	color: white;
+}
+.logo{
+	padding: 5px 5px 5px 5px;
+	margin: 10px 10px 10px 10px;
+	height: 100px;
+	width: 100px;
+	border: 5px solid white;
+}
+.posts{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.post{
+	display: flex;
+	flex-grow: inherit;
+	flex-basis: 50%;
+}
+.post-body{
+	height: 200px;
+}
+.post-container{
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.post-pic{
+	height: auto;
+	width: 100%;
+	margin-right: 10px;
+}
+}
+@media only screen and (max-width: 399px){
+body{
+	background-color: #eee;
+}
+header{
+	background-color: #49516f;
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	flex-direction: column;
+	text-align: center;
+}
+h1{
+	margin: 0px 0px 0px 0px;
+	color: white;
+}
+span{
+	margin: 0px 0px 0px 0px;
+	color: white;
+}
+.logo{
+	padding: 5px 5px 5px 5px;
+	margin: 10px 10px 10px 10px;
+	height: 100px;
+	width: 100px;
+	border: 5px solid white;
+	border-radius: 50%;
+}
+.posts{
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: auto;
+	flex-direction: column;
+}
+.post{
+	flex: display;
+	flex-grow: inherit;
+}
+.post-body{
+	height: 200px;
+}
+.post-container{
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.post-pic{
+	height: auto;
+	width: 100%;
+	margin-right: 10px;
+}
+}

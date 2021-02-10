@@ -1,0 +1,46 @@
+li.underline{
+	text-decoration: underline;
+}
+a:link{
+	text-decoration: none;
+}
+li.uppercase{
+	text-transform: uppercase;
+}
+li.cleartext{
+	color: transparent;
+}
+li.cleartext{
+	color: transparent;
+}
+li.bg-black{
+	background-color: black;
+}
+li.bg-red{
+	background-color: red;
+}
+li.fg-white{
+	color: white;
+}
+li.fg-purple{
+	color: purple;
+}
+li.shadow{
+	text-shadow: 2px 2px;
+}
+li.round{
+	border-radius: 25px;
+}
+li.borders{
+	border: 2px solid;
+	padding: 20px;
+}
+li.bold{
+	font-weight: bold;
+}
+div{
+	font-weight: bold;
+}
+li.code{
+	font-family: monospace;
+}

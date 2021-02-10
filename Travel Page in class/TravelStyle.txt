@@ -1,0 +1,13 @@
+h1{
+	background-color: darkblue;
+	color: white;
+}
+nav{
+	background-color: blue;
+}
+
+div{
+	background-color: white;
+	border: 5px solid black;
+	color: black;
+}

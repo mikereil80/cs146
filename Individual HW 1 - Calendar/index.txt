@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<title> Assignment1: Introduction to HTML and CSS </title>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://tidepod.fun/hw1_helper.js" async></script>
+	</head>
+	<body>
+	<div>
+		<h1>CS 146 Resources</h1>
+	</div>
+	<div class="content">
+		<h2>CA Office Hours</h2>
+		<table>
+			<thead>
+			<tr>
+				<th> </th>
+				<th> Monday </th>
+				<th> Tuesday </th>
+				<th> Wednesday </th>
+				<th> Thursday </th>
+				<th> Friday </th>
+			</tr>
+			</thead>
+			<tr>
+				<td> 1:00pm </td>
+				<td class="event", bgcolor="red", rowspan=2> Sean Trinh and David Sevilla, NB 327 </td>
+				<td> </td>
+				<td class="event", bgcolor="green", rowspan=2> Timothy Leonard and Elliot Wasem, NB 327 </td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td> 2:00pm </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+			</tr> 
+			<tr>
+				<td> 3:00pm </td>
+				<td class="event", bgcolor="purple", rowspan=2> Isaac Hirschfeld and Robert Herley IV, NB 327  </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td> 4:00pm </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td> 5:00pm </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td> 6:00pm </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+				<td class="event", bgcolor="blue", rowspan=2> Jack Kraszweski and Thomas Pyle, NB 327 </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td> 7:00pm </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td> 8:00pm </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+			</tr>
+		</table>
+	</div>
+	<div class="content">
+		<h2> Useful Links </h2>
+		<ul>
+			<li><a href="https://github.com/"> Github </a> </li>
+			<li><a href="https://developer.mozilla.org/en-US/"> MDN Web Docs </a> </li>
+			<li><a href="https://sit.instructure.com"> Canvas </a></li> 
+		</ul>
+	</div>
+	<div class="content">
+		<h2> Cat Pictures </h2>
+			<img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&h=350">
+			<img src="https://r.hswstatic.com/w_907/gif/tesla-cat.jpg">
+			<img src="https://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpg">
+			<img src="https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/549585-istock-909106260.jpg?itok=ds7LqH1N&resize=1100x1100">
+			<img src="https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&h=350">
+	</div>
+	</body>
+</html>

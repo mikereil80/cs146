@@ -1,0 +1,19 @@
+nav .logo a{
+	justify-content: flex-start;
+}
+nav .nav-links a{
+	justify-content: flex-end;
+}
+nav ul{
+	flex: right;
+	justify-content: flex-end;
+}
+nav li{
+	justify-content: flex-end;
+}
+nav .logo{
+	flex: left;
+}
+nav{
+	display: flex;
+}

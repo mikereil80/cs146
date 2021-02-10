@@ -1,0 +1,8 @@
+var load=document.load();
+window.addEventListener('load', function(){
+	var pic=document.getElementByClassName("thumbnail);
+	pic.addEventListener("click", function(event){
+	pic.className="featured"
+})
+
+});
